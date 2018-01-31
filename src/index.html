@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Designer</title>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+		<link rel="icon" type="image/png" href="favicon.png">
+		<link href="assets/css/app.css" rel="stylesheet">
+
+		<!--[if lt IE 9]>
+			<script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+			<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+		<![endif]-->
+	</head>
+	<body>
+		<main>
+			<div class="global">
+
+				<!-- BEGIN container  -->
+				<div class="ba-home">
+					<a href="#" class="ba-logo">
+						<img src="assets/img/logo.png">
+					</a>
+					<h1 class="ba-home__title">Designer <span>&</span> Coder</h1>
+					<a data-nav="page-contact" href="#contact" class="ba-btn ba-btn--contact">contact</a>
+					<a data-nav="page-about" href="#about" class="ba-btn ba-btn--about">about</a>
+					<a data-nav="page-work" href="#work" class="ba-btn ba-btn--work">work</a>
+				</div>
+				<!-- END container -->
+
+				<!-- BEGIN container  -->
+				<div id="about" class="ba-about">
+					<a href="#" class="ba-logo">
+						<img src="assets/img/logo.png">
+					</a>
+					<div class="container">
+						<div class="row">
+								<a data-nav="page-home" href="#" class="ba-btn ba-btn--about"><img src="assets/img/cross.png" alt=""> about</a>
+							<div class="medium-4 columns">
+								<img src="assets/img/foto.png">
+							</div>
+							<div class="medium-8 columns ba-about__text">
+								<p>Hello dear customers</p>
+								<p>My name is Alexander!</p>
+								<p>I will gladly work out for you:</p>
+								<p>Web Designe - DESIGN OF POLYGRAPHY (business cards, discount cards, leaflets, booklets, flyers, posters, etc.), -GOTOGYPES -EUTER ADVERTISING (banners, signboards, plaques, stands, etc.) -POTOKOLLAGES -PREATING PAGES IN SOCIAL NETWORKS</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- END container -->
+
+				<!-- BEGIN container  -->
+				<div class="ba-work">
+					<a href="#" class="ba-logo">
+						<img src="assets/img/logo.png">
+					</a>
+                    <a data-nav="page-home" href="#work" class="ba-btn ba-btn--work"><img src="assets/img/cross.png" alt="">work</a>
+				</div>
+				<!-- END container -->
+
+				<!-- BEGIN container  -->
+				<div id="contact" class="ba-contact">
+					<a href="#" class="ba-logo">
+						<img src="assets/img/logo.png">
+					</a>
+					<div class="container text-center">
+                        <a data-nav="page-home" href="#contact" class="ba-btn ba-btn--contact"><img src="assets/img/cross.png" alt="">contact</a>
+						<p class="ba-contact__description">New, interesting and unexpected is always around the corner, so please contact us, in a way convenient for you or just call me. </p>
+						<p class="ba-contact__description">Waiting for a response from you.</p>
+
+						<ul class="ba-social">
+							<li class="ba-social__item">
+								<a class="ba-social__link" href="#">Facebook</a>
+							</li>
+							<li class="ba-social__item">
+								<a class="ba-social__link" href="#">Instagram</a>
+							</li>
+							<li class="ba-social__item">
+								<a class="ba-social__link" href="#">Mail</a>
+							</li>
+						</ul>
+
+						<a class="ba-contact-phone" href="tel:+380954879282">+38 095 487 92 82</a>
+
+						<form action="send.php" method="post">
+							<div class="row">
+								<div class="medium-5 columns">
+									<input class="ba-form-name" type="text" name="name" placeholder="Enter name">
+									<input class="ba-form-mail" type="mail" name="email" placeholder="Enter e-mail">
+									<input class="ba-form-phone" type="text" name="number" placeholder="Enter phone">
+								</div>
+								<div class="medium-5 columns">
+									<textarea rows="6" class="ba-form-message"></textarea>
+								</div>
+								<div class="medium-2 columns">
+									<a class="ba-btn--submit" type="submit"> SEND </a>
+								</div>
+							</div>
+
+						</form>
+					</div>
+				</div>
+				<!-- END container -->
+
+			</div>
+		</main>
+
+		//=include templates/scripts.html
+	</body>
+</html>
